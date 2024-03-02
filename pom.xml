@@ -27,6 +27,13 @@
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
     <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
     <sonar.language>java</sonar.language>
+             
+         <sonar.host.url>http://54.158.230.6:9000</sonar.host.url>
+        <sonar.organization>ekart</sonar.organization>
+        <sonar.projectKey>ekart</sonar.projectKey>
+        <sonar.login>sqp_e9ed1c028930634e1fe662c76e74e039f8aee6af</sonar.login>
+
+             
     </properties>
 
     <dependencies>
